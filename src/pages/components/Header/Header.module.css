@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  height: 56px;
+  width: 100%;
+  background-color: #202020;
+}
+
+.header a {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 56px;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.item:first-child {
+  flex-grow: 1;
+}
+
+.item:last-child {
+  flex-grow: 2;
+}
+
+.item form {
+  width: 50%;
+  height: 32px;
+  display: flex;
+  margin: 12px 0;
+}
+
+.item form input {
+  width: 80%;
+  text-indent: 0.5rem;
+  border: #121212;
+  background-color: white;
+  color: white;
+}
+
+.item form button {
+  width: 20%;
+  background-color: #404040;
+  color: white;
+  border: 0;
+}
+
+.item form button:hover {
+  opacity: .6;
+  transition: .3s;
+}
