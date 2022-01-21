@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  width: 22.5%;
+  margin: 1rem 1.25rem;
+  text-align: none;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item span {
+  color: white;
+}
