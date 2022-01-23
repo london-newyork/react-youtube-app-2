@@ -9,5 +9,10 @@
         display: flex;
         flex: 1;
         background: #181818;
+        @media screen and (max-width: 960px) {
+            max-width: 90%;
+            margin: 0 auto;
+            flex-direction: column;
+        }
     }
 }

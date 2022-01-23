@@ -1,1 +1,1 @@
-.wrapper{height:100vh;min-height:100vh;display:flex;flex-direction:column;background:#181818}.wrapper .main{padding-top:56px;display:flex;flex:1;background:#181818}
+.wrapper{height:100vh;min-height:100vh;display:flex;flex-direction:column;background:#181818}.wrapper .main{padding-top:56px;display:flex;flex:1;background:#181818}@media screen and (max-width: 960px){.wrapper .main{max-width:90%;margin:0 auto;flex-direction:column}}
